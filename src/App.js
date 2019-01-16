@@ -3,7 +3,7 @@ import './App.css';
 
 const AppContext = createContext();
 
-class AppProvider extends Component {
+export default class AppProvider extends Component {
   state = {
     address: '14 Baker St',
     city: 'London'
@@ -63,5 +63,3 @@ class App extends Component {
     );
   }
 }
-
-export default App;
